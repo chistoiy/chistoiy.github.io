@@ -10,14 +10,14 @@ header-img: "img/green.jpg"
 
 # 联系方式
 
-*   Email：chistoiy@outlook.com
+*  Email：chistoiy@outlook.com
 *   QQ/微信号：1354683323
 
 * * *
 
 # 个人信息
 
-*   张石/男/1995
+*  张石/男/1995
 *   本科 
 *   
 *   Github: <https://github.com/chistoiy>
