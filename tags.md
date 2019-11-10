@@ -20,6 +20,7 @@ header-img: "img/semantic.jpg"
 
  {% assign colors = [#D1EEEE,#CD6090,#BFEFFF,#98FB98,#8EE5EE,#87CEFA,#1E90FF,#EED2EE] %}
 {% for tag in site.tags %}
+{% cycle colors %}
 <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><font color= " {% cycle colors %} ">{{ tag[0] }} </font></a>
 {% endfor %}
 </div>
