@@ -17,12 +17,10 @@ header-img: "img/semantic.jpg"
 
 <div id='tag_cloud'>
  {% assign i = 3 %}
+
  {% assign colors = "#D1EEEE,#CD6090,#BFEFFF,#98FB98,#8EE5EE,#87CEFA,#1E90FF,#EED2EE"| split: "," %}
 {% for tag in site.tags %}
- {{i}}
-
- {{i}}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><font color="{{colors[i]}}">{{ tag[0] }} </font></a>
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><font color="{{colors[ {% increment my_counter %}]}}">{{ tag[0] }} </font></a>
 {% endfor %}
 </div>
 <hr>
