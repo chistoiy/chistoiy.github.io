@@ -17,7 +17,7 @@ header-img: "img/semantic.jpg"
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><font color={{['#D1EEEE','#CD6090','#BFEFFF','#98FB98','#8EE5EE','#87CEFA','#1E90FF','#EED2EE'][0]}}>{{ tag[0] }} </font></a>
+<font color={{['#D1EEEE','#CD6090','#BFEFFF','#98FB98','#8EE5EE','#87CEFA','#1E90FF','#EED2EE'][0]}}><a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }} </a></font>
 {% endfor %}
 </div>
 <hr>
