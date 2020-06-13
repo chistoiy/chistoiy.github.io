@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "workplace"
+title: "daily"
 description: "note my daliy "
 header-img: "img/green.jpg"
 ---
